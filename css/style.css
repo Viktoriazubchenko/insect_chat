@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    background-color: indianred;
+    height: 70px;
+    padding-left: 50px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+}
+
+.header__logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+}
+
+.header__logo .fa-bug {
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+.chat {
+    width: 70%;
+    margin: 0 auto;
+    background: url(../img/bg.jpg) center no-repeat;
+    background-size: cover;
+    padding: 70px;
+}
+
+.chat-card {
+    background-color: #fff;
+    width: 500px;
+    padding: 20px;
+    margin: 50px auto;
+    border-radius: 15px;
+    box-shadow: 0 2px 1px rgba(0,0,0,0.15);
+}
+
+.chat-card__user {
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.chat-card__avatar {
+    flex-shrink: 0;
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    margin-right: 10px; 
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.chat-card__username {
+    font-size: 20px;
+    color: black;
+}
+
+.chat-card__likes {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.chat-card__likes p {
+    margin-left: 10px;
+    font-size: 20px;
+    color: #555555;
+
+}
+
+.chat-card__likes .fa-heart {
+    font-size: 24px;
+    color: indianred;
+}
+
+.chat-card__desc {
+    color: #555555;
+    margin-top: 20px;
+}
+
+.chat-card__time {
+    color: #555555;
+    margin-top: 20px;
+}
+
+
+
+
+
